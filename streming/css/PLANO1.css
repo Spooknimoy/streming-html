@@ -1,0 +1,99 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@1,300&display=swap');
+
+body {
+    background-image: url(../images/FUNDO.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: 200pc 200pc;
+
+   
+}
+
+.color-menu {
+    background-color: rgb(70, 39, 27);
+}
+
+#color-a {
+    color: aliceblue;
+    font-family: 'League Gothic';
+    font-size: 20px;
+
+}
+
+#img1 {
+    border: 2px;
+}
+
+#position {
+    position: relative;
+   
+}
+
+.esquerda {
+    color: wheat;
+    position: absolute;
+    top: 60em;
+    
+}
+
+.imglogo {
+    width: 60px;
+    height: 60px;
+    border-radius: 5%;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    ;
+    font-size: 60px;
+}
+
+p {
+    font-family: 'open sans';
+    font-size: 20px;
+}
+
+
+.farinha {
+    margin: 20px;
+}
+
+.farinha h1 {
+    text-align: left;
+    color: rgb(112, 38, 19);
+    font-size: 50px;
+    text-shadow: 3px 3px 20px black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, rgb(233, 39, 39) 0%, rgb(221, 209, 39) 50%, rgb(219, 156, 39)100%);
+
+    
+}
+
+#conteudos {
+    display: flex;
+    margin: 50px;
+}
+
+#conteudos img {
+    box-shadow: 5px 3px 3px black;
+    width: 320px;
+    height: 240px;
+}
+
+.carousel-caption h5 {
+    font-size: 48pt;
+    font-family: 'Inconsolata';
+    
+}
+
+.carousel-caption p {
+    font-size: 20pt;
+}

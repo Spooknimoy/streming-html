@@ -1,0 +1,91 @@
+
+
+body{
+   
+    background: url(fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+
+
+
+}
+.img-avata{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.div-princi{
+    background-color: rgba(46, 46, 46, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 0;
+}
+.linha{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    width: 97%;
+    height: 4px;
+    background: linear-gradient(150deg, rgba(2,0,36,1) 0%, rgb(255, 115, 0) 30%, rgba(2,0,36,1) 80%);
+}
+.input-container{
+	position:relative;
+	margin-bottom:20px;
+    color: #ffffff;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#ffffff;	
+   
+}
+.input-container input{ 
+  border: 0;  
+  border-radius: 10px;
+  border-bottom:1px solid FF5C00;  
+  background:#FF5C00;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#ffffff;
+}
+.input-container textarea{
+    color: #ffffff;
+}
+.input-container input:focus{ 
+ 
+ border-bottom:1px solid #e74c3c;	
+}
+.botao-cont{
+    border-radius: 15px;
+    background-color: whitesmoke);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: black;
+
+}
+.frase{
+    color: bisque;
+}
+.title{
+    font-size: 100px;
+    background: linear-gradient(150deg, rgba(2,0,36,1) 0%, rgb(255, 115, 0) 30%, rgba(2,0,36,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.marginha{
+  margin-left: 10px;
+}
+.marginha2{
+    margin-bottom: 0px;
+}
+.marginha3{
+   margin-top: 5px;
+}
+.marginha4{
+    margin-bottom: 15px;
+}

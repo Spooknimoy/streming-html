@@ -1,0 +1,104 @@
+body {
+    background: url(FUNDO.png);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Fonte';
+    background: linear-gradient(57.38deg, #FF1F00 24.09%, #FF6E31 52.97%,
+    #FFC700 94.28%), linear-gradient(47.36deg, #EB00FF 5.67%,
+    #8F00FF 36.51%, #0029FF 88.5%), 
+    linear-gradient(266.63deg, #FFAE00 14.68%, #FF6490 59.61%,
+    #FF00C7 99.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    text-transform: uppercase;
+    color: rgb(71, 71, 71);
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+main div {
+    width: 350px;
+    height: 490px;
+    display: inline-block;
+    padding: 8px;
+    margin: 8px 0 0 58px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.952);
+    border-radius: 10px;
+    border: solid 2px orangered;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 20px;
+    padding: 10px;
+    color: dimgrey;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.selecionar {
+    width: 60%; 
+    margin: 30px 0 0 65px;
+    padding: 12px ;
+    background-color:orangered;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.selecionar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+nav {
+    position: absolute;
+    margin: 10px 0 0 558px;
+    transition: 0.4s all;
+}
+
+nav a {
+    font-size:20px;
+    color:gold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+nav:hover {
+    transform: scale(1.1);
+}
+
+@font-face {
+    font-family: 'Fonte';
+    src: url('Poppins-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
